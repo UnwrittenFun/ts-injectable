@@ -1,0 +1,7 @@
+{
+  "name": "ts-injectable",
+  "version": false,
+  "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160305082308"
+  }
+}
