@@ -1,11 +1,11 @@
 {
   "name": "ts-injectable",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Dependency injection using TypeScript annotations.",
-  "main": "built/index.js",
-  "typings": "built/index.d.ts",
+  "main": "js/index.js",
+  "typings": "js/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd ts && tsc && cd .."
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/UnwrittenFun/ts-injectable#readme",
   "dependencies": {
-    "lodash": "^4.9.0",
+    "lodash": "^4.13.1",
     "reflect-metadata": "^0.1.3"
   }
 }
