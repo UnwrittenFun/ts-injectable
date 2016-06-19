@@ -1,7 +1,7 @@
 import {Injector} from "./injector";
 
-export function Injectable(): ClassDecorator {
-  return function (target: any): any {
-    return target;
+export function Injectable() {
+  return function (target: any, key?: any, descriptor?: any): any {
+    return key == null ? target : undefined;
   };
 }

@@ -1,6 +1,6 @@
 {
   "name": "ts-injectable",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Dependency injection using TypeScript annotations.",
   "main": "js/index.js",
   "typings": "js/index.d.ts",
